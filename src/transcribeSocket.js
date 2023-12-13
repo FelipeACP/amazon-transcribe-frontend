@@ -4,7 +4,7 @@ import { fromUtf8, toUtf8 } from "@aws-sdk/util-utf8-node";
 import axios from "axios";
 
 // UPDATE THIS ACCORDING TO YOUR BACKEND:
-const backendUrl = "http://localhost:8080/aws-signature";
+const backendUrl = "http://voice-assistance-stream.eba-g32epfz2.us-west-2.elasticbeanstalk.com/transcribe-url?language_code=pt-BR&sample_rate=16000";
 
 let socket;
 const SAMPLE_RATE = 44100;
